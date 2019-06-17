@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", Load);
 function Load(){
-    fetch("https://newsapi.org/v2/top-headlines?country=pl&category=technology&apiKey=5611edf8385a4cce97e57f8beec3264f")
+    fetch("klucz")
    .then(function(response){
        return response.json();
    })
